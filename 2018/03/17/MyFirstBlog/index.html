@@ -35,7 +35,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/03/17/MyFirstBlog/yourname.PNG">
 <meta property="og:image" content="http://yoursite.com/2018/03/17/MyFirstBlog/configname.PNG">
 <meta property="og:image" content="http://yoursite.com/2018/03/17/MyFirstBlog/nice.PNG">
-<meta property="og:updated_time" content="2018-03-18T15:49:30.768Z">
+<meta property="og:updated_time" content="2018-03-20T12:29:25.815Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何利用Hexo以及GitHub搭建自己的博客（高手勿进）">
 <meta name="twitter:description" content="这是本人的第一篇博客，用于记录我是如何利用一些工具来搭建当前我所在的这个博客页面的一些过程以及一些注意事项，希望有意无意点进来看的各位能够通过我的这篇博客收获一些什么（至少可以安装成功吧）。为了写这篇博客，我姑且狠一狠心，把我之前安装的东西全部卸载删除了。为了纪念一下我已经配置好的博客，先贴一张图来纪念一下，希望在这篇博客写完之后，我可以重新看到这个界面。">
@@ -110,7 +110,7 @@
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
                 <i class="icon icon-lg icon-chevron-left"></i>
             </a>
-            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="検索">
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
                 <i class="icon icon-lg icon-search"></i>
             </a>
@@ -246,7 +246,7 @@
                 </div>
                 <div class="image-caption"></div>
             </figure></li>
-<li>创建SSH<br>在gitbash中输入：<figure class="highlight plain"><figcaption><span>-t rsa -C "863159411@qq.com```(此处的邮箱要换成自己的）</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">然后一直回车，中间会让你输入“y/n”的就输入&quot;y&quot;就好,结果如下：</span><br><span class="line">![](MyFirstBlog/ssh.PNG)</span><br><span class="line">* 到C:\Users\Administrator\.ssh下，里面有id_rsa和id_rsa.pub等文件，用记事本把id_rsa.pub文件打开，将其中的密码复制下来，然后回到自己的github上</span><br><span class="line">![](MyFirstBlog/setting.PNG)</span><br><span class="line">![](MyFirstBlog/setssh.PNG)</span><br><span class="line">![](MyFirstBlog/key.PNG)</span><br><span class="line">然后添加一个新的SSH秘钥，Title可以随便取，里面的Key就复制你刚刚从id_rsa_pub得到的秘钥。</span><br><span class="line">到这里关于SSH的部分就算结束了</span><br><span class="line"></span><br><span class="line">这个时候回到gitbash，输入命令</span><br><span class="line">```ssh -T git@github.com</span><br></pre></td></tr></table></figure></li>
+<li>创建SSH,在gitbash中输入：<figure class="highlight plain"><figcaption><span>-t rsa -C "863159411@qq.com```(此处的邮箱要换成自己的）</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">然后一直回车，中间会让你输入“y/n”的就输入&quot;y&quot;就好,结果如下：</span><br><span class="line">![](MyFirstBlog/ssh.PNG)</span><br><span class="line">* 到C:\Users\Administrator\.ssh下，里面有id_rsa和id_rsa.pub等文件，用记事本把id_rsa.pub文件打开，将其中的密码复制下来，然后回到自己的github上</span><br><span class="line">![](MyFirstBlog/setting.PNG)</span><br><span class="line">![](MyFirstBlog/setssh.PNG)</span><br><span class="line">![](MyFirstBlog/key.PNG)</span><br><span class="line">然后添加一个新的SSH秘钥，Title可以随便取，里面的Key就复制你刚刚从id_rsa_pub得到的秘钥。</span><br><span class="line">到这里关于SSH的部分就算结束了</span><br><span class="line"></span><br><span class="line">这个时候回到gitbash，输入命令</span><br><span class="line">```ssh -T git@github.com</span><br></pre></td></tr></table></figure></li>
 </ul>
 <p>如果这个时候弹出的提示如下图所示的话，那么恭喜你，你已经把你的本地账户和github连通啦。<br><figure class="image-bubble">
                 <div class="img-lightbox">
@@ -268,7 +268,7 @@
     <div class="content">
         
 <span class="post-time">
-    最終更新：<time datetime="2018-03-18T15:49:30.768Z" itemprop="dateUpdated">2018-03-18 23:49:30</time>
+    Last updated: <time datetime="2018-03-20T12:29:25.815Z" itemprop="dateUpdated">2018-03-20 20:29:25</time>
 </span><br>
 
 
@@ -424,7 +424,7 @@
 
         <p>
             
-            <span>このブログの内容物は<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際ライセンスの下に提供されています</a></span>
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
         </p>
     </div>
     <div class="bottom">
